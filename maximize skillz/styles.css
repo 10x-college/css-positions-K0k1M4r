@@ -230,9 +230,11 @@ body {
     
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: auto;
     margin: 0 auto;
-    padding: 64px 32px 40px 32px;
-    gap: 44px;
+    padding: 64px 32px 30px 32px;
+    
 }
 
 .cardText h3 {
@@ -245,6 +247,7 @@ body {
     font-size: 18px;
     font-size: 500;
     color: #83869A;
+    line-height: 27px;
 }
 
 .cardText span {
