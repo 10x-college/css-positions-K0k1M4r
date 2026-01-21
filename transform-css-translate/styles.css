@@ -1,4 +1,6 @@
-
+body {
+    overflow-x: hidden;
+}
 
 .skilledHead {
     justify-self: center;
@@ -145,6 +147,19 @@
     font-size: 40px;
     font-weight: 800;
 }
+
+.backgroundPurpleGoo {
+    height: 1007.9999827488149px;
+    width: 316.9999945747761px;
+    background-image: linear-gradient(to bottom,#4851FF,#F02AA6);
+    border-radius: 158.5px;
+    position: absolute;
+    bottom: -94px;
+    left: 247px;
+    rotate: 45deg;
+    z-index: -1;
+}
+
 
 .main {
     display: flex;
