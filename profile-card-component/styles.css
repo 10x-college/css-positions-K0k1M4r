@@ -1,11 +1,17 @@
+html {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
 body {
     background-color: rgb(17, 169, 180);
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100dvh;
-    
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
+
 
 
 .card {
@@ -90,5 +96,32 @@ body {
     font-weight: 400;
     font-size: 13px;
     color: #6B7082;
+}
+
+
+
+.circle1 {
+    height: 977.999983262243px;
+    width: 977.999983262243px;
+    position: absolute;
+    top: 470px;
+    right: 12px;
+    rotate: 45deg;
+    border-radius: 50%;
+    background: linear-gradient(180deg, rgba(9, 137, 180, 0.0001) 0.78%, #53FFEE 99.94%);
+    z-index: -1;
+    overflow-y: hidden;
+}
+
+.circle2 {
+    height: 977.999983262243px;
+    width: 977.999983262243px;
+    position: absolute;
+    top: -376px;
+    left: -29px;
+    rotate: 45deg;
+    border-radius: 50%;
+    background: linear-gradient(180deg, rgba(9, 137, 180, 0.0001) 0.78%, #53FFEE 99.94%);
+    z-index: -1;
 }
 
