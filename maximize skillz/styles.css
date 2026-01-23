@@ -1,0 +1,282 @@
+html {
+    overflow-x: hidden;
+}
+body {
+    overflow-x: hidden;
+}
+
+.skilledHead {
+    justify-self: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1050px;
+    min-height: 107px;
+    gap: 750px;
+
+}
+
+.skilledHead img {
+    height: 28px;
+    width: 111px;
+}
+
+.skilledHead button {
+    width: 168px;
+    height: 59px;
+    border-radius: 28px;
+    border: none;
+    background-color: #13183F;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+
+.introductionSpace {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1050px;
+    min-height: 700px;
+    margin: 0 auto;
+}
+
+.maximizeSkills {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 20px;
+    
+}
+
+.maximizeSkills h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.maximizeSkills p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 10px;
+    color: #83869A;
+}
+
+.maximizeSkills button {
+    width: 168px;
+    height: 59px;
+    border-radius: 28px;
+    border: none;
+    background-image: linear-gradient(to bottom, #FF6F48, #F02AA6);
+    color: white;
+    font-size: 16px;
+}
+
+
+.girlMascotSpace {
+    position: relative;
+}
+
+.girlContainer {
+    height: 560px;
+    width: 317px;
+    border-radius: 158.5px;
+    background-image: linear-gradient(to bottom, #FF6F48, #F02AA6);
+    overflow: hidden;
+    
+
+}
+
+.girlContainer img {
+    width: 337px;
+    margin-top: 100px;
+
+}
+
+.courseHoursComment {
+    background-color: white;
+    width: 175px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 24px;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 77px;
+    left: -142px;
+    z-index: 1;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.courseHoursComment p {
+    color: #83869A;
+    font-size: 19px;
+    margin-bottom: 6px;
+    font-weight: 700;
+}
+
+.courseHoursComment h3 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.numbersComment {
+    background-color: white;
+    width: 131px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 24px;
+    border-radius: 15px;
+    position: absolute;
+    top: 26%;
+    right: -41%;
+    z-index: 1;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.numbersComment p {
+    color: #83869A;
+    font-size: 19px;
+    margin-bottom: 6px;
+    font-weight: 700;
+}
+
+.numbersComment h3 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.backgroundPurpleGoo {
+    height: 1007.9999827488149px;
+    width: 316.9999945747761px;
+    background-image: linear-gradient(to bottom,#4851FF,#F02AA6);
+    border-radius: 158.5px;
+    position: absolute;
+    bottom: -94px;
+    left: 247px;
+    rotate: 45deg;
+    z-index: -1;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 900px;
+}
+
+
+.cardsContainer {
+    gap: 56px;
+    min-height: 756px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cardRow1 {
+    display: flex;
+    gap: 32px;
+}
+
+.cardRow2 {
+    display: flex;
+    gap: 32px;
+}
+
+
+.cardRow1 .card:nth-child(1) {
+    background-image: linear-gradient(to bottom, #FF6F48, #F02AA6);
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    
+
+} 
+
+.cardRow1 .card:nth-child(1) h2 {
+    margin-top: 64px;
+    margin-left: 32px;
+}
+
+.card {
+    width: 352px;
+    height: 322px;
+    background-color: white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 15px;
+}
+
+
+.icon {
+    bottom: 294px;
+    left: 32px;
+    position: absolute;
+    height: 56px;
+    width: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, #FF6F48, #F02AA6);
+}
+
+.cardText {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    margin: 0 auto;
+    padding: 64px 32px 30px 32px;
+    height: 218px;
+    
+}
+
+.cardText h3 {
+    font-size: 24px;
+    font-size: 800;
+    
+}
+
+.cardText p {
+    font-size: 18px;
+    font-size: 500;
+    color: #83869A;
+    line-height: 27px;
+}
+
+.cardText span {
+    font-size: 18px;
+    font-size: 700;
+    
+    color: #F74780;
+}
+
+
+.footer {
+    background-color: #13183F;
+    min-height: 107px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 750px;
+}
+
+.footer button {
+    color: white;
+    background-image: linear-gradient(to bottom, #4851FF, #F02AA6);
+    height: 59px;
+    width: 168px;
+    border-radius: 28px;
+    border: none;
+    font-size: 18px;
+}
